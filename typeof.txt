@@ -1,0 +1,10 @@
+
+a. typeof(1)         - The result is number
+b. typeof(1.1)       - The result is number
+c. typeof('1.1')     - The result is string
+d. typeof(true)      - The result is Boolean
+e. typeof(null)      - The result is object
+f. typeof(undefined) - The result is undefined
+g. typeof([])        - The result is object
+h. typeof({})        - The result is object
+i. typeof(NaN)       - The result is number
