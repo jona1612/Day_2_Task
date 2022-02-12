@@ -1,0 +1,20 @@
+How does the browser actually render a website:-
+
+1. Parsing HTML:
+   a. HTML is forgiving by nature
+   b. Parsing isn't straight forward
+   c. can be halted
+   d. will do speculative Parsing
+   e. Its reentrant
+2. Css Parsing:
+3. Parsing flow:
+   a. script Execution
+   b. Tokeniser
+   c. Tree construction
+4. speculative Parsing:
+   a. will look ahead
+   b. External images, script, css
+5. <script/> at the bottom:
+   a. Parse uninterrupted
+   b. faster to render
+   c. Trade off 
